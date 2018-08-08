@@ -11,8 +11,6 @@ class HauntedHouse < ActiveRecord::Migration
       t.datetime :opening_date
       t.datetime :closing_date
       t.text :description
-
-      t.timestamps null: false
     end
   end
 end
